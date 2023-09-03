@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classDP_1_1GUIFactory.html" title="Abstract class to create GUI factory for different OS." alt="" coords="5,31,123,57"/>
+<area shape="rect" id="node2" href="$classDP_1_1MacGUIFactory.html" title="Mac GUI factory class." alt="" coords="171,5,313,32"/>
+<area shape="rect" id="node3" href="$classDP_1_1WinGUIFactory.html" title="Windoes GUI factory class." alt="" coords="172,56,312,83"/>
+</map>

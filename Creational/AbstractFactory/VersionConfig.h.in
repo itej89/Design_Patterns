@@ -1,0 +1,2 @@
+#define AbstractFactoryPattern_VERSION_MAJOR @AbstractFactoryPattern_VERSION_MAJOR@
+#define AbstractFactoryPattern_VERSION_MINOR @AbstractFactoryPattern_VERSION_MINOR@

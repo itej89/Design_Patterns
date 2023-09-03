@@ -1,0 +1,5 @@
+<map id="DP::Checkbox" name="DP::Checkbox">
+<area shape="rect" id="node1" title="Abstract class for checkbox." alt="" coords="95,5,203,32"/>
+<area shape="rect" id="node2" href="$classDP_1_1MacCheckbox.html" title="Mac specific checkbox implementation." alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node3" href="$classDP_1_1WinCheckbox.html" title="Windows specific checkbox implementation." alt="" coords="163,80,293,107"/>
+</map>

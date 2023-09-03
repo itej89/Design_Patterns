@@ -1,0 +1,2 @@
+#define FactoryPattern_VERSION_MAJOR @FactoryPattern_VERSION_MAJOR@
+#define FactoryPattern_VERSION_MINOR @FactoryPattern_VERSION_MINOR@

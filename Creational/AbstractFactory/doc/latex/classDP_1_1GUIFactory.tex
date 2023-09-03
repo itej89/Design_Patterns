@@ -1,0 +1,89 @@
+\hypertarget{classDP_1_1GUIFactory}{}\doxysection{DP\+::GUIFactory Class Reference}
+\label{classDP_1_1GUIFactory}\index{DP::GUIFactory@{DP::GUIFactory}}
+
+
+Abstract class to create GUI factory for different OS.  
+
+
+
+
+{\ttfamily \#include $<$GUIFactory.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::GUIFactory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classDP_1_1GUIFactory__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Button}{Button}} $>$ \mbox{\hyperlink{classDP_1_1GUIFactory_a90234e04888a5f70520b2e138988223a}{create\+Button}} ()=0
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classDP_1_1Button}{Button}} object. \end{DoxyCompactList}\item 
+virtual std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Checkbox}{Checkbox}} $>$ \mbox{\hyperlink{classDP_1_1GUIFactory_a087443e9e3981a9e65e49aaeaa3276cc}{create\+Checkbox}} ()=0
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classDP_1_1Checkbox}{Checkbox}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDP_1_1GUIFactory_aa0a4cb865b3a2d05a340fa20e2e627f1}{render\+GUI}} ()
+\begin{DoxyCompactList}\small\item\em Render GUI. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstract class to create GUI factory for different OS. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1GUIFactory_a90234e04888a5f70520b2e138988223a}\label{classDP_1_1GUIFactory_a90234e04888a5f70520b2e138988223a}} 
+\index{DP::GUIFactory@{DP::GUIFactory}!createButton@{createButton}}
+\index{createButton@{createButton}!DP::GUIFactory@{DP::GUIFactory}}
+\doxysubsubsection{\texorpdfstring{createButton()}{createButton()}}
+{\footnotesize\ttfamily virtual std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classDP_1_1Button}{Button}}$>$ DP\+::\+GUIFactory\+::create\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Create a \mbox{\hyperlink{classDP_1_1Button}{Button}} object. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classDP_1_1Button}{Button}} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classDP_1_1WinGUIFactory_a4a38792c990054d91f3e57d8ccd7b591}{DP\+::\+Win\+GUIFactory}}, and \mbox{\hyperlink{classDP_1_1MacGUIFactory_a4914da6a7e39f4ce807d871166d8e286}{DP\+::\+Mac\+GUIFactory}}.
+
+\mbox{\Hypertarget{classDP_1_1GUIFactory_a087443e9e3981a9e65e49aaeaa3276cc}\label{classDP_1_1GUIFactory_a087443e9e3981a9e65e49aaeaa3276cc}} 
+\index{DP::GUIFactory@{DP::GUIFactory}!createCheckbox@{createCheckbox}}
+\index{createCheckbox@{createCheckbox}!DP::GUIFactory@{DP::GUIFactory}}
+\doxysubsubsection{\texorpdfstring{createCheckbox()}{createCheckbox()}}
+{\footnotesize\ttfamily virtual std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classDP_1_1Checkbox}{Checkbox}}$>$ DP\+::\+GUIFactory\+::create\+Checkbox (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Create a \mbox{\hyperlink{classDP_1_1Checkbox}{Checkbox}} object. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classDP_1_1Checkbox}{Checkbox}} 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classDP_1_1WinGUIFactory_a45a7ab7fd7a662ec2612b7978f719639}{DP\+::\+Win\+GUIFactory}}, and \mbox{\hyperlink{classDP_1_1MacGUIFactory_a67d94b0f7855b483f5a21e7bc2a9747e}{DP\+::\+Mac\+GUIFactory}}.
+
+\mbox{\Hypertarget{classDP_1_1GUIFactory_aa0a4cb865b3a2d05a340fa20e2e627f1}\label{classDP_1_1GUIFactory_aa0a4cb865b3a2d05a340fa20e2e627f1}} 
+\index{DP::GUIFactory@{DP::GUIFactory}!renderGUI@{renderGUI}}
+\index{renderGUI@{renderGUI}!DP::GUIFactory@{DP::GUIFactory}}
+\doxysubsubsection{\texorpdfstring{renderGUI()}{renderGUI()}}
+{\footnotesize\ttfamily void GUIFactory\+::render\+GUI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Render GUI. 
+
+Create ui elements
+
+Register UI elemtnts events
+
+Render UI elements
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Creational/\+Abstract\+Factory/include/GUIFactory.\+h\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Creational/\+Abstract\+Factory/src/GUIFactory.\+cpp\end{DoxyCompactItemize}
