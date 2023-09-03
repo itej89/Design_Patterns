@@ -1,0 +1,109 @@
+\hypertarget{classDP_1_1CarBuilder}{}\doxysection{DP\+::Car\+Builder Class Reference}
+\label{classDP_1_1CarBuilder}\index{DP::CarBuilder@{DP::CarBuilder}}
+
+
+Class to build \mbox{\hyperlink{classDP_1_1Car}{Car}}.  
+
+
+
+
+{\ttfamily \#include $<$Car\+Builder.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::Car\+Builder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{classDP_1_1CarBuilder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for DP\+::Car\+Builder\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{classDP_1_1CarBuilder__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classDP_1_1CarBuilder_a84345acb0b6782dc1c9161525666308a}{reset}} () override
+\item 
+void \mbox{\hyperlink{classDP_1_1CarBuilder_aaeec0d0d9c758fddcf9bba3dfc0a1b7a}{set\+Seats}} (int count) override
+\item 
+void \mbox{\hyperlink{classDP_1_1CarBuilder_a85bb010b01752c2b6b16be4d2be71554}{set\+Engine}} (std\+::string engine) override
+\item 
+void \mbox{\hyperlink{classDP_1_1CarBuilder_a3fa37ea61f6a221e0838e7e9ba291685}{set\+GPS}} () override
+\item 
+\mbox{\hyperlink{classDP_1_1Car}{Car}} \mbox{\hyperlink{classDP_1_1CarBuilder_aaa29835d34e4358fb5615b5aa892ac23}{get\+Result}} ()
+\begin{DoxyCompactList}\small\item\em Returns the build car. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class to build \mbox{\hyperlink{classDP_1_1Car}{Car}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1CarBuilder_aaa29835d34e4358fb5615b5aa892ac23}\label{classDP_1_1CarBuilder_aaa29835d34e4358fb5615b5aa892ac23}} 
+\index{DP::CarBuilder@{DP::CarBuilder}!getResult@{getResult}}
+\index{getResult@{getResult}!DP::CarBuilder@{DP::CarBuilder}}
+\doxysubsubsection{\texorpdfstring{getResult()}{getResult()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDP_1_1Car}{Car}} Car\+Builder\+::get\+Result (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the build car. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classDP_1_1Car}{Car}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDP_1_1CarBuilder_a84345acb0b6782dc1c9161525666308a}\label{classDP_1_1CarBuilder_a84345acb0b6782dc1c9161525666308a}} 
+\index{DP::CarBuilder@{DP::CarBuilder}!reset@{reset}}
+\index{reset@{reset}!DP::CarBuilder@{DP::CarBuilder}}
+\doxysubsubsection{\texorpdfstring{reset()}{reset()}}
+{\footnotesize\ttfamily void Car\+Builder\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Reset \mbox{\hyperlink{classDP_1_1Builder}{Builder}} 
+
+Implements \mbox{\hyperlink{classDP_1_1Builder_acb4feab7b536cc8f5988d55d50eca767}{DP\+::\+Builder}}.
+
+\mbox{\Hypertarget{classDP_1_1CarBuilder_a85bb010b01752c2b6b16be4d2be71554}\label{classDP_1_1CarBuilder_a85bb010b01752c2b6b16be4d2be71554}} 
+\index{DP::CarBuilder@{DP::CarBuilder}!setEngine@{setEngine}}
+\index{setEngine@{setEngine}!DP::CarBuilder@{DP::CarBuilder}}
+\doxysubsubsection{\texorpdfstring{setEngine()}{setEngine()}}
+{\footnotesize\ttfamily void Car\+Builder\+::set\+Engine (\begin{DoxyParamCaption}\item[{std\+::string}]{engine }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Set Engine type 
+
+Implements \mbox{\hyperlink{classDP_1_1Builder_a43f8487d9def278320a5a71220dcd24a}{DP\+::\+Builder}}.
+
+\mbox{\Hypertarget{classDP_1_1CarBuilder_a3fa37ea61f6a221e0838e7e9ba291685}\label{classDP_1_1CarBuilder_a3fa37ea61f6a221e0838e7e9ba291685}} 
+\index{DP::CarBuilder@{DP::CarBuilder}!setGPS@{setGPS}}
+\index{setGPS@{setGPS}!DP::CarBuilder@{DP::CarBuilder}}
+\doxysubsubsection{\texorpdfstring{setGPS()}{setGPS()}}
+{\footnotesize\ttfamily void Car\+Builder\+::set\+GPS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Set GPS 
+
+Implements \mbox{\hyperlink{classDP_1_1Builder_ab12453c0eca4f2ae48e396d478342d0f}{DP\+::\+Builder}}.
+
+\mbox{\Hypertarget{classDP_1_1CarBuilder_aaeec0d0d9c758fddcf9bba3dfc0a1b7a}\label{classDP_1_1CarBuilder_aaeec0d0d9c758fddcf9bba3dfc0a1b7a}} 
+\index{DP::CarBuilder@{DP::CarBuilder}!setSeats@{setSeats}}
+\index{setSeats@{setSeats}!DP::CarBuilder@{DP::CarBuilder}}
+\doxysubsubsection{\texorpdfstring{setSeats()}{setSeats()}}
+{\footnotesize\ttfamily void Car\+Builder\+::set\+Seats (\begin{DoxyParamCaption}\item[{int}]{count }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Set Number of sets 
+
+Implements \mbox{\hyperlink{classDP_1_1Builder_a8c71ecb1c743a5c23ca75af0ae6e160b}{DP\+::\+Builder}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Creational/\+Builder/include/Car\+Builder.\+h\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Creational/\+Builder/src/Car\+Builder.\+cpp\end{DoxyCompactItemize}

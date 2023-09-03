@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classDP_1_1Builder.html" title="Builder abstract class." alt="" coords="5,31,95,57"/>
+<area shape="rect" id="node2" href="$classDP_1_1CarBuilder.html" title="Class to build Car." alt="" coords="163,5,274,32"/>
+<area shape="rect" id="node3" href="$classDP_1_1CarManualBuilder.html" title="Class to build Car manual." alt="" coords="143,56,295,83"/>
+</map>

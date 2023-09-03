@@ -1,0 +1,2 @@
+#define BuilderPattern_VERSION_MAJOR @BuilderPattern_VERSION_MAJOR@
+#define BuilderPattern_VERSION_MINOR @BuilderPattern_VERSION_MINOR@
