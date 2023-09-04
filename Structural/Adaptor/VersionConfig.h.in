@@ -1,0 +1,2 @@
+#define AdaptorPattern_VERSION_MAJOR @AdaptorPattern_VERSION_MAJOR@
+#define AdaptorPattern_VERSION_MINOR @AdaptorPattern_VERSION_MINOR@
