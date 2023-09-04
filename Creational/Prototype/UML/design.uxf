@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Prototype</help_text><element><id>UMLClass</id><coordinates><x>290</x><y>270</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Prototype
+--
++getColor(): String
++clone(): Prototype</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>400</y><w>210</w><h>120</h></coordinates><panel_attributes>Button
+--
+-x,y,color
+--
++Button(x,y,color)
++Button(prototype)
++getColor(): String
++clone(): Prototype</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>340</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>270</y><w>210</w><h>100</h></coordinates><panel_attributes>PrototypeRegistry
+--
+-items : Prototype[]
+--
++addItem(id: string, p: Prototype)
++getById(id: string): Prototype
++getByColor(): Prototype</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>310</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>200</y><w>100</w><h>30</h></coordinates><panel_attributes>Client</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>220</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>220</x><y>140</y><w>140</w><h>40</h></coordinates><panel_attributes>Prototype Pattern
+bg=White
+fg=Black</panel_attributes><additional_attributes></additional_attributes></element></diagram>

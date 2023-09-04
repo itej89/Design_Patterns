@@ -1,0 +1,5 @@
+<map id="DP::Button" name="DP::Button">
+<area shape="rect" id="node1" title="Interface for Button type." alt="" coords="91,5,177,32"/>
+<area shape="rect" id="node2" href="$classDP_1_1LinuxButton.html" title="LinuxButton class type." alt="" coords="5,80,124,107"/>
+<area shape="rect" id="node3" href="$classDP_1_1MacButton.html" title="Implements Button type for Mac OS." alt="" coords="147,80,259,107"/>
+</map>

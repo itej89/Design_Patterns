@@ -1,0 +1,2 @@
+#define PrototypePattern_VERSION_MAJOR @PrototypePattern_VERSION_MAJOR@
+#define PrototypePattern_VERSION_MINOR @PrototypePattern_VERSION_MINOR@
