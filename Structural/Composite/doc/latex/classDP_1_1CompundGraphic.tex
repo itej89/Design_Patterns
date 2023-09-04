@@ -1,0 +1,116 @@
+\hypertarget{classDP_1_1CompundGraphic}{}\doxysection{DP\+::Compund\+Graphic Class Reference}
+\label{classDP_1_1CompundGraphic}\index{DP::CompundGraphic@{DP::CompundGraphic}}
+
+
+Class type for Compound \mbox{\hyperlink{classDP_1_1Graphic}{Graphic}}.  
+
+
+
+
+{\ttfamily \#include $<$Compund\+Graphic.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::Compund\+Graphic\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classDP_1_1CompundGraphic__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for DP\+::Compund\+Graphic\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classDP_1_1CompundGraphic__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classDP_1_1CompundGraphic_a4b846f4bc676ffaf3973966e0e130b2d}{add}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Graphic}{Graphic}} $>$ child)
+\begin{DoxyCompactList}\small\item\em Adds sub elements. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDP_1_1CompundGraphic_ab067efa2d4325306224de52f855b0fb4}{remove}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Graphic}{Graphic}} $>$ child)
+\begin{DoxyCompactList}\small\item\em Removes sub element. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDP_1_1CompundGraphic_a2ccc39db19bb4f76abecacfad29b063d}{move}} (int x, int y) override
+\begin{DoxyCompactList}\small\item\em Moves all sub elements as part of composite. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDP_1_1CompundGraphic_a857c76519965c94f9dce31267a385c09}{draw}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Class type for Compound \mbox{\hyperlink{classDP_1_1Graphic}{Graphic}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1CompundGraphic_a4b846f4bc676ffaf3973966e0e130b2d}\label{classDP_1_1CompundGraphic_a4b846f4bc676ffaf3973966e0e130b2d}} 
+\index{DP::CompundGraphic@{DP::CompundGraphic}!add@{add}}
+\index{add@{add}!DP::CompundGraphic@{DP::CompundGraphic}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void Compund\+Graphic\+::add (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Graphic}{Graphic}} $>$}]{child }\end{DoxyParamCaption})}
+
+
+
+Adds sub elements. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em child} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDP_1_1CompundGraphic_a857c76519965c94f9dce31267a385c09}\label{classDP_1_1CompundGraphic_a857c76519965c94f9dce31267a385c09}} 
+\index{DP::CompundGraphic@{DP::CompundGraphic}!draw@{draw}}
+\index{draw@{draw}!DP::CompundGraphic@{DP::CompundGraphic}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Compund\+Graphic\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Implement draw method 
+
+Implements \mbox{\hyperlink{classDP_1_1Graphic_ab5a01edb5931e53f18b35644825afadd}{DP\+::\+Graphic}}.
+
+\mbox{\Hypertarget{classDP_1_1CompundGraphic_a2ccc39db19bb4f76abecacfad29b063d}\label{classDP_1_1CompundGraphic_a2ccc39db19bb4f76abecacfad29b063d}} 
+\index{DP::CompundGraphic@{DP::CompundGraphic}!move@{move}}
+\index{move@{move}!DP::CompundGraphic@{DP::CompundGraphic}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Compund\+Graphic\+::move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Moves all sub elements as part of composite. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classDP_1_1Graphic_aeafd2cae82e8d4fc85bd3bb277d8e77e}{DP\+::\+Graphic}}.
+
+\mbox{\Hypertarget{classDP_1_1CompundGraphic_ab067efa2d4325306224de52f855b0fb4}\label{classDP_1_1CompundGraphic_ab067efa2d4325306224de52f855b0fb4}} 
+\index{DP::CompundGraphic@{DP::CompundGraphic}!remove@{remove}}
+\index{remove@{remove}!DP::CompundGraphic@{DP::CompundGraphic}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void Compund\+Graphic\+::remove (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Graphic}{Graphic}} $>$}]{child }\end{DoxyParamCaption})}
+
+
+
+Removes sub element. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em child} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Structural/\+Composite/include/Compund\+Graphic.\+h\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Structural/\+Composite/src/Compund\+Graphic.\+cpp\end{DoxyCompactItemize}

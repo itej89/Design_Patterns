@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classDP_1_1Graphic.html" title="Graphic Abstract Interface." alt="" coords="5,31,100,57"/>
+<area shape="rect" id="node2" href="$classDP_1_1CompundGraphic.html" title="Class type for Compound Graphic." alt="" coords="148,5,299,32"/>
+<area shape="rect" id="node3" href="$classDP_1_1Dot.html" title="Class type for Dot objects." alt="" coords="188,56,259,83"/>
+<area shape="rect" id="node4" href="$classDP_1_1Circle.html" title="Class type for Circle." alt="" coords="347,56,429,83"/>
+</map>

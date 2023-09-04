@@ -1,0 +1,2 @@
+#define CompositePattern_VERSION_MAJOR @CompositePattern_VERSION_MAJOR@
+#define CompositePattern_VERSION_MINOR @CompositePattern_VERSION_MINOR@

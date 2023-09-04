@@ -1,0 +1,25 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>130</x><y>230</y><w>120</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Graphic
+--
++move(x,y)
++draw()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>240</y><w>100</w><h>30</h></coordinates><panel_attributes>ImageEditor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>370</y><w>120</w><h>100</h></coordinates><panel_attributes>Dot
+--
+x,y
+--
++Dot(x, y)
++move(x, y)
++draw()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>370</y><w>150</w><h>110</h></coordinates><panel_attributes>CompoundGraphic
+--
+-children: Graphic[]
+--
++add(child: Graphic)
++remove(child: Graphic)
++move(x,y)
++draw()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>530</y><w>120</w><h>90</h></coordinates><panel_attributes>Circle
+--
+radius
+--
++Circle(x, y, radius)
++draw()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>460</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>300</y><w>220</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40;200;40;200;70</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>280</y><w>190</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>170;90;170;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>240</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>230</x><y>160</y><w>140</w><h>40</h></coordinates><panel_attributes>Composite Pattern
+bg=white
+fg=black</panel_attributes><additional_attributes></additional_attributes></element></diagram>

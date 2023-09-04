@@ -1,0 +1,6 @@
+<map id="DP::Graphic" name="DP::Graphic">
+<area shape="rect" id="node1" title="Graphic Abstract Interface." alt="" coords="100,5,195,32"/>
+<area shape="rect" id="node2" href="$classDP_1_1CompundGraphic.html" title="Class type for Compound Graphic." alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node3" href="$classDP_1_1Dot.html" title="Class type for Dot objects." alt="" coords="180,80,251,107"/>
+<area shape="rect" id="node4" href="$classDP_1_1Circle.html" title="Class type for Circle." alt="" coords="174,155,257,181"/>
+</map>
