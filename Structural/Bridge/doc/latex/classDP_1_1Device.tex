@@ -1,0 +1,98 @@
+\hypertarget{classDP_1_1Device}{}\doxysection{DP\+::Device Class Reference}
+\label{classDP_1_1Device}\index{DP::Device@{DP::Device}}
+
+
+\mbox{\hyperlink{classDP_1_1Device}{Device}} class.  
+
+
+
+
+{\ttfamily \#include $<$device.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::Device\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classDP_1_1Device__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{classDP_1_1Device_ab50bf2142f971f680b96b7e8668c68db}{is\+Enable}} ()=0
+\begin{DoxyCompactList}\small\item\em Check if device is enabled. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Device_a3cc5c827b8ff4af3493c2390c0d7dd84}\label{classDP_1_1Device_a3cc5c827b8ff4af3493c2390c0d7dd84}} 
+virtual void \mbox{\hyperlink{classDP_1_1Device_a3cc5c827b8ff4af3493c2390c0d7dd84}{enable}} ()=0
+\begin{DoxyCompactList}\small\item\em Enable device. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Device_af4c2bc54f0123e8ed1606c7441a7f129}\label{classDP_1_1Device_af4c2bc54f0123e8ed1606c7441a7f129}} 
+virtual void \mbox{\hyperlink{classDP_1_1Device_af4c2bc54f0123e8ed1606c7441a7f129}{disable}} ()=0
+\begin{DoxyCompactList}\small\item\em Disable device. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Device_aa198966eaa28629df2a5563efcd49f31}\label{classDP_1_1Device_aa198966eaa28629df2a5563efcd49f31}} 
+virtual void \mbox{\hyperlink{classDP_1_1Device_aa198966eaa28629df2a5563efcd49f31}{get\+Volume}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Volume. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classDP_1_1Device_ac6368a88a2b376354e6201b54d2b4acb}{set\+Volume}} (float value)=0
+\begin{DoxyCompactList}\small\item\em Set the Volume. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Device_ad7c9c601587186c2dd3642ca66f3a3e0}\label{classDP_1_1Device_ad7c9c601587186c2dd3642ca66f3a3e0}} 
+virtual void \mbox{\hyperlink{classDP_1_1Device_ad7c9c601587186c2dd3642ca66f3a3e0}{get\+Channel}} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Channel. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classDP_1_1Device_a6883295427f221f2c1f72e15bddb9d63}{set\+Channel}} (float value)=0
+\begin{DoxyCompactList}\small\item\em Set the Channel. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classDP_1_1Device}{Device}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1Device_ab50bf2142f971f680b96b7e8668c68db}\label{classDP_1_1Device_ab50bf2142f971f680b96b7e8668c68db}} 
+\index{DP::Device@{DP::Device}!isEnable@{isEnable}}
+\index{isEnable@{isEnable}!DP::Device@{DP::Device}}
+\doxysubsubsection{\texorpdfstring{isEnable()}{isEnable()}}
+{\footnotesize\ttfamily virtual bool DP\+::\+Device\+::is\+Enable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Check if device is enabled. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDP_1_1Device_a6883295427f221f2c1f72e15bddb9d63}\label{classDP_1_1Device_a6883295427f221f2c1f72e15bddb9d63}} 
+\index{DP::Device@{DP::Device}!setChannel@{setChannel}}
+\index{setChannel@{setChannel}!DP::Device@{DP::Device}}
+\doxysubsubsection{\texorpdfstring{setChannel()}{setChannel()}}
+{\footnotesize\ttfamily virtual void DP\+::\+Device\+::set\+Channel (\begin{DoxyParamCaption}\item[{float}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Channel. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDP_1_1Device_ac6368a88a2b376354e6201b54d2b4acb}\label{classDP_1_1Device_ac6368a88a2b376354e6201b54d2b4acb}} 
+\index{DP::Device@{DP::Device}!setVolume@{setVolume}}
+\index{setVolume@{setVolume}!DP::Device@{DP::Device}}
+\doxysubsubsection{\texorpdfstring{setVolume()}{setVolume()}}
+{\footnotesize\ttfamily virtual void DP\+::\+Device\+::set\+Volume (\begin{DoxyParamCaption}\item[{float}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Set the Volume. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Structural/\+Bridge/include/device.\+h\end{DoxyCompactItemize}

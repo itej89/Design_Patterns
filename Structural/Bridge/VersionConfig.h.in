@@ -1,0 +1,2 @@
+#define BridgePattern_VERSION_MAJOR @BridgePattern_VERSION_MAJOR@
+#define BridgePattern_VERSION_MINOR @BridgePattern_VERSION_MINOR@
