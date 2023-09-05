@@ -1,0 +1,2 @@
+#define ProxyPattern_VERSION_MAJOR @ProxyPattern_VERSION_MAJOR@
+#define ProxyPattern_VERSION_MINOR @ProxyPattern_VERSION_MINOR@
