@@ -1,0 +1,75 @@
+\hypertarget{classDP_1_1DataSource}{}\doxysection{DP\+::Data\+Source Class Reference}
+\label{classDP_1_1DataSource}\index{DP::DataSource@{DP::DataSource}}
+
+
+Data Source type.  
+
+
+
+
+{\ttfamily \#include $<$Data\+Source.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::Data\+Source\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDP_1_1DataSource__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classDP_1_1DataSource_a792502bc00c694365767ac7f8317369c}{write\+Data}} (std\+::string data)=0
+\begin{DoxyCompactList}\small\item\em Write data method. \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classDP_1_1DataSource_ad7a38661bec8ab9d736b433c182039e5}{read\+Data}} ()=0
+\begin{DoxyCompactList}\small\item\em Read Data method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Data Source type. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1DataSource_ad7a38661bec8ab9d736b433c182039e5}\label{classDP_1_1DataSource_ad7a38661bec8ab9d736b433c182039e5}} 
+\index{DP::DataSource@{DP::DataSource}!readData@{readData}}
+\index{readData@{readData}!DP::DataSource@{DP::DataSource}}
+\doxysubsubsection{\texorpdfstring{readData()}{readData()}}
+{\footnotesize\ttfamily virtual std\+::string DP\+::\+Data\+Source\+::read\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Read Data method. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classDP_1_1FileDataSource_a2342562d0342727a9201150c1d513773}{DP\+::\+File\+Data\+Source}}, \mbox{\hyperlink{classDP_1_1EncryptionDecorator_a7899c3bddaf81be924b113ee9bf7c7ff}{DP\+::\+Encryption\+Decorator}}, and \mbox{\hyperlink{classDP_1_1CompressionDecorator_a159f0b748878c99a368857653602d06a}{DP\+::\+Compression\+Decorator}}.
+
+\mbox{\Hypertarget{classDP_1_1DataSource_a792502bc00c694365767ac7f8317369c}\label{classDP_1_1DataSource_a792502bc00c694365767ac7f8317369c}} 
+\index{DP::DataSource@{DP::DataSource}!writeData@{writeData}}
+\index{writeData@{writeData}!DP::DataSource@{DP::DataSource}}
+\doxysubsubsection{\texorpdfstring{writeData()}{writeData()}}
+{\footnotesize\ttfamily virtual void DP\+::\+Data\+Source\+::write\+Data (\begin{DoxyParamCaption}\item[{std\+::string}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Write data method. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classDP_1_1FileDataSource_a32bfca15073f2d235aa51aada05ad59f}{DP\+::\+File\+Data\+Source}}, \mbox{\hyperlink{classDP_1_1EncryptionDecorator_a3760957c2639c20729b3d11b8607d5be}{DP\+::\+Encryption\+Decorator}}, and \mbox{\hyperlink{classDP_1_1CompressionDecorator_ab6c8189d772d33c79c0d77c4a6bac9e1}{DP\+::\+Compression\+Decorator}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Structural/\+Decorator/include/Data\+Source.\+h\end{DoxyCompactItemize}

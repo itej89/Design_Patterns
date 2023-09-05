@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>390</y><w>180</w><h>110</h></coordinates><panel_attributes>FileDataSource
+--
+-filename
+--
++FileDataSource(filename)
++writeData(data)
++readData()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>390</y><w>250</w><h>110</h></coordinates><panel_attributes>DataSourceDecorator
+--
+-wrappee: DataSource
+--
++DataSourceDecorator(s: DataSource)
++writeData(data)
++readData()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>250</y><w>180</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+DataSource
+--
++writeData(data)
++readData</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>320</y><w>190</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40;170;40;170;70</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>320</y><w>150</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>130;10;130;40;10;40;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>540</y><w>120</w><h>90</h></coordinates><panel_attributes>Encryption
+Decorator
+--
+...
+--
++writeData(data)
++readData()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>540</y><w>120</w><h>90</h></coordinates><panel_attributes>Compression
+Decorator
+--
+...
+--
++writeData(data)
++readData()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>490</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40;90;40;90;50</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>490</y><w>100</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;80;40;10;40;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>280</y><w>290</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>210;150;270;150;270;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>180</y><w>100</w><h>30</h></coordinates><panel_attributes>Client</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>200</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>360</x><y>130</y><w>130</w><h>40</h></coordinates><panel_attributes>Decorator
+bg=white
+fg=black</panel_attributes><additional_attributes></additional_attributes></element></diagram>
