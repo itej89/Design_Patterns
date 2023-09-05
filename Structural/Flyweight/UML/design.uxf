@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>350</x><y>400</y><w>130</w><h>100</h></coordinates><panel_attributes>Tree
+--
++x
++y
++type: TreeType
+--
++draw(canvas)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>240</y><w>170</w><h>100</h></coordinates><panel_attributes>Forest
+--
++x
++y
++type: TreeType
+--
++draw(canvas)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>400</y><w>210</w><h>110</h></coordinates><panel_attributes>TreeType
+--
+-name
+-color
+-texture
+--
++TreeType(name, color, texture)
++draw(canvas, x, y)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>240</y><w>210</w><h>110</h></coordinates><panel_attributes>TreeType
+--
+-name
+-color
+-texture
+--
++TreeType(name, color, texture)
++draw(canvas, x, y)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>280</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>330</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>340</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>440</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;110;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>240</x><y>160</y><w>90</w><h>50</h></coordinates><panel_attributes>Flyweight
+bg=White
+fg=black</panel_attributes><additional_attributes></additional_attributes></element></diagram>

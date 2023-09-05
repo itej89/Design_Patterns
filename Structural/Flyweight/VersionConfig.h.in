@@ -1,0 +1,2 @@
+#define FlyweightPattern_VERSION_MAJOR @FlyweightPattern_VERSION_MAJOR@
+#define FlyweightPattern_VERSION_MINOR @FlyweightPattern_VERSION_MINOR@
