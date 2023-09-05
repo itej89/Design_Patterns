@@ -1,0 +1,2 @@
+#define FacadePattern_VERSION_MAJOR @FacadePattern_VERSION_MAJOR@
+#define FacadePattern_VERSION_MINOR @FacadePattern_VERSION_MINOR@
