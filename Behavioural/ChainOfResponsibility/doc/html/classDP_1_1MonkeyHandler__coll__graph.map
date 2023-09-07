@@ -1,0 +1,5 @@
+<map id="DP::MonkeyHandler" name="DP::MonkeyHandler">
+<area shape="rect" id="node1" title="Monkey Handler type." alt="" coords="7,155,147,181"/>
+<area shape="rect" id="node2" href="$classDP_1_1AbstractHandler.html" title="Abstract handler base implementation." alt="" coords="5,80,148,107"/>
+<area shape="rect" id="node3" href="$classDP_1_1Handler.html" title="Handler interface." alt="" coords="29,5,124,32"/>
+</map>

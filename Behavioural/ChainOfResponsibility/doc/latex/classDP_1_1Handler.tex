@@ -1,0 +1,59 @@
+\hypertarget{classDP_1_1Handler}{}\doxysection{DP\+::Handler Class Reference}
+\label{classDP_1_1Handler}\index{DP::Handler@{DP::Handler}}
+
+
+\mbox{\hyperlink{classDP_1_1Handler}{Handler}} interface.  
+
+
+
+
+{\ttfamily \#include $<$Handler.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDP_1_1Handler__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Handler}{Handler}} $>$ \mbox{\hyperlink{classDP_1_1Handler_a5ae17a1d3504d213ce5050bef11f6ab4}{Set\+Next}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Handler}{Handler}} $>$ handler)=0
+\item 
+virtual std\+::string \mbox{\hyperlink{classDP_1_1Handler_a6a38b59522ea060396f62f16b47667f8}{Handle}} (std\+::string request)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classDP_1_1Handler}{Handler}} interface. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1Handler_a6a38b59522ea060396f62f16b47667f8}\label{classDP_1_1Handler_a6a38b59522ea060396f62f16b47667f8}} 
+\index{DP::Handler@{DP::Handler}!Handle@{Handle}}
+\index{Handle@{Handle}!DP::Handler@{DP::Handler}}
+\doxysubsubsection{\texorpdfstring{Handle()}{Handle()}}
+{\footnotesize\ttfamily virtual std\+::string DP\+::\+Handler\+::\+Handle (\begin{DoxyParamCaption}\item[{std\+::string}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Method to handle/pass request 
+
+Implemented in \mbox{\hyperlink{classDP_1_1SquirrelHandler_a785140db10eb0fc3c618e8f067eb5a49}{DP\+::\+Squirrel\+Handler}}, \mbox{\hyperlink{classDP_1_1MonkeyHandler_ad56c699bbb1a9f11ec06787026fdc89a}{DP\+::\+Monkey\+Handler}}, \mbox{\hyperlink{classDP_1_1CowHandler_a7626caa23fb1fc23231c45add880bfd6}{DP\+::\+Cow\+Handler}}, and \mbox{\hyperlink{classDP_1_1AbstractHandler_a9bf9c6cd4e73bc9d16d3187774ac0995}{DP\+::\+Abstract\+Handler}}.
+
+\mbox{\Hypertarget{classDP_1_1Handler_a5ae17a1d3504d213ce5050bef11f6ab4}\label{classDP_1_1Handler_a5ae17a1d3504d213ce5050bef11f6ab4}} 
+\index{DP::Handler@{DP::Handler}!SetNext@{SetNext}}
+\index{SetNext@{SetNext}!DP::Handler@{DP::Handler}}
+\doxysubsubsection{\texorpdfstring{SetNext()}{SetNext()}}
+{\footnotesize\ttfamily virtual std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classDP_1_1Handler}{Handler}}$>$ DP\+::\+Handler\+::\+Set\+Next (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Handler}{Handler}} $>$}]{handler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Method to handle/pass request 
+
+Implemented in \mbox{\hyperlink{classDP_1_1AbstractHandler_a22e7cc1e87865fefe9007d0bc4aaa82e}{DP\+::\+Abstract\+Handler}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Behavioural/\+Chain\+Of\+Responsibility/include/Handler.\+h\end{DoxyCompactItemize}

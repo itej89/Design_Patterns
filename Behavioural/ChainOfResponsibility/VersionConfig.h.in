@@ -1,0 +1,2 @@
+#define CORPattern_VERSION_MAJOR @CORPattern_VERSION_MAJOR@
+#define CORPattern_VERSION_MINOR @CORPattern_VERSION_MINOR@

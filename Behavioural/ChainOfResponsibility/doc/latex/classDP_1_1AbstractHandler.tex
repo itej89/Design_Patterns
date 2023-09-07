@@ -1,0 +1,77 @@
+\hypertarget{classDP_1_1AbstractHandler}{}\doxysection{DP\+::Abstract\+Handler Class Reference}
+\label{classDP_1_1AbstractHandler}\index{DP::AbstractHandler@{DP::AbstractHandler}}
+
+
+Abstract handler base implementation.  
+
+
+
+
+{\ttfamily \#include $<$Abstract\+Handler.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::Abstract\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDP_1_1AbstractHandler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for DP\+::Abstract\+Handler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{classDP_1_1AbstractHandler__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDP_1_1AbstractHandler_a773ba7479d7805fdf3898f8dd758de6d}\label{classDP_1_1AbstractHandler_a773ba7479d7805fdf3898f8dd758de6d}} 
+\mbox{\hyperlink{classDP_1_1AbstractHandler_a773ba7479d7805fdf3898f8dd758de6d}{Abstract\+Handler}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Abstract \mbox{\hyperlink{classDP_1_1Handler}{Handler}} object. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Handler}{Handler}} $>$ \mbox{\hyperlink{classDP_1_1AbstractHandler_a22e7cc1e87865fefe9007d0bc4aaa82e}{Set\+Next}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Handler}{Handler}} $>$ handler) override
+\item 
+std\+::string \mbox{\hyperlink{classDP_1_1AbstractHandler_a9bf9c6cd4e73bc9d16d3187774ac0995}{Handle}} (std\+::string request) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstract handler base implementation. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1AbstractHandler_a9bf9c6cd4e73bc9d16d3187774ac0995}\label{classDP_1_1AbstractHandler_a9bf9c6cd4e73bc9d16d3187774ac0995}} 
+\index{DP::AbstractHandler@{DP::AbstractHandler}!Handle@{Handle}}
+\index{Handle@{Handle}!DP::AbstractHandler@{DP::AbstractHandler}}
+\doxysubsubsection{\texorpdfstring{Handle()}{Handle()}}
+{\footnotesize\ttfamily std\+::string Abstract\+Handler\+::\+Handle (\begin{DoxyParamCaption}\item[{std\+::string}]{request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Method to handle/pass request 
+
+Implements \mbox{\hyperlink{classDP_1_1Handler_a6a38b59522ea060396f62f16b47667f8}{DP\+::\+Handler}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classDP_1_1SquirrelHandler_a785140db10eb0fc3c618e8f067eb5a49}{DP\+::\+Squirrel\+Handler}}, \mbox{\hyperlink{classDP_1_1MonkeyHandler_ad56c699bbb1a9f11ec06787026fdc89a}{DP\+::\+Monkey\+Handler}}, and \mbox{\hyperlink{classDP_1_1CowHandler_a7626caa23fb1fc23231c45add880bfd6}{DP\+::\+Cow\+Handler}}.
+
+\mbox{\Hypertarget{classDP_1_1AbstractHandler_a22e7cc1e87865fefe9007d0bc4aaa82e}\label{classDP_1_1AbstractHandler_a22e7cc1e87865fefe9007d0bc4aaa82e}} 
+\index{DP::AbstractHandler@{DP::AbstractHandler}!SetNext@{SetNext}}
+\index{SetNext@{SetNext}!DP::AbstractHandler@{DP::AbstractHandler}}
+\doxysubsubsection{\texorpdfstring{SetNext()}{SetNext()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Handler}{Handler}} $>$ Abstract\+Handler\+::\+Set\+Next (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Handler}{Handler}} $>$}]{handler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Method to handle/pass request 
+
+Implements \mbox{\hyperlink{classDP_1_1Handler_a5ae17a1d3504d213ce5050bef11f6ab4}{DP\+::\+Handler}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Behavioural/\+Chain\+Of\+Responsibility/include/Abstract\+Handler.\+h\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Behavioural/\+Chain\+Of\+Responsibility/src/Abstract\+Handler.\+cpp\end{DoxyCompactItemize}

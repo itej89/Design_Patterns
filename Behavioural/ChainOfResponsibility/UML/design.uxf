@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>280</x><y>160</y><w>180</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Handler
+--
++setNext(Handler: handler)
++handle(string: request)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>310</y><w>180</w><h>90</h></coordinates><panel_attributes>AbstractHandler
+--
+-next_handler: Handler
+--
++setNext(Handler: handler)
++handle(string: request)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>240</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLNote</id><coordinates><x>280</x><y>100</y><w>180</w><h>40</h></coordinates><panel_attributes>Chain of Responsibility
+bg=White
+fg=Black</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>190</y><w>90</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>70;160;10;160;10;10;70;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>470</y><w>170</w><h>60</h></coordinates><panel_attributes>MonkeyHandler
+--
++handle(string: request)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>470</y><w>170</w><h>60</h></coordinates><panel_attributes>SquirrelHandler
+--
++handle(string: request)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>470</y><w>170</w><h>60</h></coordinates><panel_attributes>DogHandler
+--
++handle(string: request)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>390</y><w>270</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>250;10;250;50;10;50;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>390</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>390</y><w>240</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;50;220;50;220;80</additional_attributes></element></diagram>

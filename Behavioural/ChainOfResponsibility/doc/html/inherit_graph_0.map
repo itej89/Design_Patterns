@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classDP_1_1Handler.html" title="Handler interface." alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node2" href="$classDP_1_1AbstractHandler.html" title="Abstract handler base implementation." alt="" coords="148,56,291,83"/>
+<area shape="rect" id="node3" href="$classDP_1_1CowHandler.html" title="Cow Handler type." alt="" coords="348,5,469,32"/>
+<area shape="rect" id="node4" href="$classDP_1_1MonkeyHandler.html" title="Monkey Handler type." alt="" coords="339,56,479,83"/>
+<area shape="rect" id="node5" href="$classDP_1_1SquirrelHandler.html" title="Squirrel Handler type." alt="" coords="339,107,478,133"/>
+</map>
