@@ -1,0 +1,2 @@
+#define CommandPattern_VERSION_MAJOR @CommandPattern_VERSION_MAJOR@
+#define CommandPattern_VERSION_MINOR @CommandPattern_VERSION_MINOR@
