@@ -1,0 +1,2 @@
+#define MomentoPattern_VERSION_MAJOR @MomentoPattern_VERSION_MAJOR@
+#define MomentoPattern_VERSION_MINOR @MomentoPattern_VERSION_MINOR@

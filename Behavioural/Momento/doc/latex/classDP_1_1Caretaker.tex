@@ -1,0 +1,69 @@
+\hypertarget{classDP_1_1Caretaker}{}\doxysection{DP\+::Caretaker Class Reference}
+\label{classDP_1_1Caretaker}\index{DP::Caretaker@{DP::Caretaker}}
+
+
+\mbox{\hyperlink{classDP_1_1Caretaker}{Caretaker}} node to save restore backups.  
+
+
+
+
+{\ttfamily \#include $<$Caretaker.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDP_1_1Caretaker_a5f7e08b26e81e00c430a4443b918e545}{Caretaker}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Originator}{Originator}} $>$ originator)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classDP_1_1Caretaker}{Caretaker}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Caretaker_a90dc4a499ea9aae6357b4436e896616e}\label{classDP_1_1Caretaker_a90dc4a499ea9aae6357b4436e896616e}} 
+void \mbox{\hyperlink{classDP_1_1Caretaker_a90dc4a499ea9aae6357b4436e896616e}{Backup}} ()
+\begin{DoxyCompactList}\small\item\em Backup function for origicator states. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDP_1_1Caretaker_a95765328605644b05aec02466f3e8706}{Restore}} ()
+\begin{DoxyCompactList}\small\item\em Undo function for originator states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Caretaker_a38e118958c7ecc65b50a8f5e98b0bb2c}\label{classDP_1_1Caretaker_a38e118958c7ecc65b50a8f5e98b0bb2c}} 
+void \mbox{\hyperlink{classDP_1_1Caretaker_a38e118958c7ecc65b50a8f5e98b0bb2c}{Show\+History}} () const
+\begin{DoxyCompactList}\small\item\em Utility funciton to display all the saved states. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classDP_1_1Caretaker}{Caretaker}} node to save restore backups. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDP_1_1Caretaker_a5f7e08b26e81e00c430a4443b918e545}\label{classDP_1_1Caretaker_a5f7e08b26e81e00c430a4443b918e545}} 
+\index{DP::Caretaker@{DP::Caretaker}!Caretaker@{Caretaker}}
+\index{Caretaker@{Caretaker}!DP::Caretaker@{DP::Caretaker}}
+\doxysubsubsection{\texorpdfstring{Caretaker()}{Caretaker()}}
+{\footnotesize\ttfamily Caretaker\+::\+Caretaker (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Originator}{Originator}} $>$}]{originator }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classDP_1_1Caretaker}{Caretaker}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em originator} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1Caretaker_a95765328605644b05aec02466f3e8706}\label{classDP_1_1Caretaker_a95765328605644b05aec02466f3e8706}} 
+\index{DP::Caretaker@{DP::Caretaker}!Restore@{Restore}}
+\index{Restore@{Restore}!DP::Caretaker@{DP::Caretaker}}
+\doxysubsubsection{\texorpdfstring{Restore()}{Restore()}}
+{\footnotesize\ttfamily void Caretaker\+::\+Restore (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Undo function for originator states. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+momento} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Behavioural/\+Momento/include/Caretaker.\+h\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Behavioural/\+Momento/src/Caretaker.\+cpp\end{DoxyCompactItemize}
