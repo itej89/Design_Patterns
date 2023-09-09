@@ -1,0 +1,2 @@
+#define IteratorPattern_VERSION_MAJOR @IteratorPattern_VERSION_MAJOR@
+#define IteratorPattern_VERSION_MINOR @IteratorPattern_VERSION_MINOR@

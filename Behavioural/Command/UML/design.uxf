@@ -1,28 +1,28 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>59</x><y>181</y><w>190</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>201</y><w>190</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
 Command
 --
-+Execute()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>59</x><y>291</y><w>190</w><h>110</h></coordinates><panel_attributes>SimpleCommand
++Execute()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>311</y><w>190</w><h>110</h></coordinates><panel_attributes>SimpleCommand
 --
 -payload: string
 --
 +setPayload(in payload: string)
-+Execute()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>139</x><y>241</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>289</x><y>291</y><w>220</w><h>110</h></coordinates><panel_attributes>ComplexCommand
++Execute()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>261</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>311</y><w>220</w><h>110</h></coordinates><panel_attributes>ComplexCommand
 --
 -reciever: Reciever
 -b: string
 -a: string
 --
 +setReciever(in reciever: Reciever)
-+Execute()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>289</x><y>181</y><w>220</w><h>70</h></coordinates><panel_attributes>Reciever
++Execute()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>201</y><w>220</w><h>70</h></coordinates><panel_attributes>Reciever
 --
 +DoSomething()
-+DoSomethingElse()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>389</x><y>241</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>139</x><y>241</y><w>170</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40;130;40;130;80;150;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>59</x><y>461</y><w>310</w><h>120</h></coordinates><panel_attributes>Invoker
++DoSomethingElse()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>261</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>261</y><w>170</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;40;130;40;130;80;150;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>481</y><w>310</w><h>120</h></coordinates><panel_attributes>Invoker
 --
 -onStart: Command
 -onFinish: Command
 --
 +setOnStartCommand(in _command: Command)
 +setOnFinishCommand(in _command: Command)
-+PerformTask()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>9</x><y>201</y><w>70</w><h>340</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>50;320;10;320;10;10;50;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>59</x><y>91</y><w>190</w><h>50</h></coordinates><panel_attributes>Command Pattern
++PerformTask()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>221</y><w>70</w><h>340</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>50;320;10;320;10;10;50;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>50</x><y>111</y><w>190</w><h>50</h></coordinates><panel_attributes>Command Pattern
 bg=White
-fg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>279</x><y>651</y><w>100</w><h>30</h></coordinates><panel_attributes>Client</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>319</x><y>571</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>369</x><y>211</y><w>210</w><h>470</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>140;10;190;10;190;450;10;450</additional_attributes></element><element><id>Relation</id><coordinates><x>499</x><y>341</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>137</x><y>391</y><w>440</w><h>60</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;40;420;40</additional_attributes></element></diagram>
+fg=black</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>671</y><w>100</w><h>30</h></coordinates><panel_attributes>Client</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>591</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>231</y><w>210</w><h>470</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>140;10;190;10;190;450;10;450</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>361</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>128</x><y>411</y><w>440</w><h>60</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;40;420;40</additional_attributes></element></diagram>

@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>90</x><y>230</y><w>260</w><h>130</h></coordinates><panel_attributes>Iterator&lt;T, U&gt;
+--
++iter_type: std::vector&lt;T&gt;::iterator
++m_p_data: std::shared_ptr&lt;U&gt;
+--
++void First()
++void Next()
++bool IsDone()
++iter_type Current()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>420</y><w>260</w><h>90</h></coordinates><panel_attributes>Container&lt;T&gt;
+--
++m_data_: std::vector&lt;T&gt;
+--
++Add(T a): void
++CreateIterator(T a): Iterator&lt;T, Container&gt; </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>40</x><y>270</y><w>70</w><h>210</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>50;190;10;190;10;10;50;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>230</y><w>150</w><h>100</h></coordinates><panel_attributes>Data
+--
++m_data_: int
+--
++Data(in: a:int)
++data(): int
++set_data(in a:int): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>570</y><w>260</w><h>100</h></coordinates><panel_attributes>ClientCode
+--
++cont1: Container&lt;int&gt;
++it: Iterator&lt;int, Container&lt;int&gt;&gt;
++cont2: Container&lt;Data&gt;
++it2: Iterator&lt;int, Container&lt;Data&gt;&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>320</y><w>90</w><h>330</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>70;10;70;310;10;310</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>500</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>0</x><y>240</y><w>110</w><h>390</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>90;10;10;10;10;370;90;370</additional_attributes></element><element><id>UMLNote</id><coordinates><x>190</x><y>150</y><w>160</w><h>50</h></coordinates><panel_attributes>IteratorPattern
+bg=White
+fg=Black</panel_attributes><additional_attributes></additional_attributes></element></diagram>
