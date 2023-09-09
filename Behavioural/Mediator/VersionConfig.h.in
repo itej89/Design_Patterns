@@ -1,0 +1,2 @@
+#define MediatorPattern_VERSION_MAJOR @MediatorPattern_VERSION_MAJOR@
+#define MediatorPattern_VERSION_MINOR @MediatorPattern_VERSION_MINOR@
