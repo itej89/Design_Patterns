@@ -1,0 +1,2 @@
+#define StatePattern_VERSION_MAJOR @StatePattern_VERSION_MAJOR@
+#define StatePattern_VERSION_MINOR @StatePattern_VERSION_MINOR@
