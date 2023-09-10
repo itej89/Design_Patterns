@@ -1,0 +1,102 @@
+\hypertarget{classDP_1_1Subject}{}\doxysection{DP\+::Subject Class Reference}
+\label{classDP_1_1Subject}\index{DP::Subject@{DP::Subject}}
+
+
+Inheritance diagram for DP\+::Subject\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=153pt]{classDP_1_1Subject__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for DP\+::Subject\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=153pt]{classDP_1_1Subject__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDP_1_1Subject_a8225e72a5669d0d2bd1f3031b16e26fa}\label{classDP_1_1Subject_a8225e72a5669d0d2bd1f3031b16e26fa}} 
+void \mbox{\hyperlink{classDP_1_1Subject_a8225e72a5669d0d2bd1f3031b16e26fa}{Some\+Business\+Logic}} ()
+\begin{DoxyCompactList}\small\item\em Perform do business. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Subject_ab59c17b6f53c4a19ad96e7ebf8a7603a}\label{classDP_1_1Subject_ab59c17b6f53c4a19ad96e7ebf8a7603a}} 
+void \mbox{\hyperlink{classDP_1_1Subject_ab59c17b6f53c4a19ad96e7ebf8a7603a}{How\+Many\+Observer}} ()
+\begin{DoxyCompactList}\small\item\em Returns number of observers subscribed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDP_1_1Subject_ac192b6684d8d7b72356dce436f3b4c89}{Create\+Message}} (std\+::string message=\char`\"{}Empty\char`\"{})
+\begin{DoxyCompactList}\small\item\em Create a Message object. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classDP_1_1Subject_abcdd2d6a7779cf427276086872510ca9}{Attach}} (\mbox{\hyperlink{classDP_1_1IObserver}{IObserver}} $\ast$observer) override
+\begin{DoxyCompactList}\small\item\em Attach observer to subject. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classDP_1_1Subject_a5d046f7b943084e3d495a80b9112a802}{Dettach}} (\mbox{\hyperlink{classDP_1_1IObserver}{IObserver}} $\ast$observer) override
+\begin{DoxyCompactList}\small\item\em Dettach observer from subject. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Subject_a48626cea0c6d7df922747bebf80f99b8}\label{classDP_1_1Subject_a48626cea0c6d7df922747bebf80f99b8}} 
+virtual void \mbox{\hyperlink{classDP_1_1Subject_a48626cea0c6d7df922747bebf80f99b8}{Notify}} () override
+\begin{DoxyCompactList}\small\item\em Notify observers about update. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1Subject_abcdd2d6a7779cf427276086872510ca9}\label{classDP_1_1Subject_abcdd2d6a7779cf427276086872510ca9}} 
+\index{DP::Subject@{DP::Subject}!Attach@{Attach}}
+\index{Attach@{Attach}!DP::Subject@{DP::Subject}}
+\doxysubsubsection{\texorpdfstring{Attach()}{Attach()}}
+{\footnotesize\ttfamily void Subject\+::\+Attach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classDP_1_1IObserver}{IObserver}} $\ast$}]{observer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Attach observer to subject. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classDP_1_1ISubject_a18e6a5b7c2732f5060ab58b3f232a76b}{DP\+::\+ISubject}}.
+
+\mbox{\Hypertarget{classDP_1_1Subject_ac192b6684d8d7b72356dce436f3b4c89}\label{classDP_1_1Subject_ac192b6684d8d7b72356dce436f3b4c89}} 
+\index{DP::Subject@{DP::Subject}!CreateMessage@{CreateMessage}}
+\index{CreateMessage@{CreateMessage}!DP::Subject@{DP::Subject}}
+\doxysubsubsection{\texorpdfstring{CreateMessage()}{CreateMessage()}}
+{\footnotesize\ttfamily void Subject\+::\+Create\+Message (\begin{DoxyParamCaption}\item[{std\+::string}]{message = {\ttfamily \char`\"{}Empty\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+Create a Message object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDP_1_1Subject_a5d046f7b943084e3d495a80b9112a802}\label{classDP_1_1Subject_a5d046f7b943084e3d495a80b9112a802}} 
+\index{DP::Subject@{DP::Subject}!Dettach@{Dettach}}
+\index{Dettach@{Dettach}!DP::Subject@{DP::Subject}}
+\doxysubsubsection{\texorpdfstring{Dettach()}{Dettach()}}
+{\footnotesize\ttfamily void Subject\+::\+Dettach (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classDP_1_1IObserver}{IObserver}} $\ast$}]{observer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Dettach observer from subject. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em observer} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classDP_1_1ISubject_a994bc0bfc5b853017d9e9f4430d151a4}{DP\+::\+ISubject}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Behavioural/\+Observer/include/Subject.\+h\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Behavioural/\+Observer/src/Subject.\+cpp\end{DoxyCompactItemize}

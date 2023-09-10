@@ -1,23 +1,23 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notesz</help_text><element><id>UMLClass</id><coordinates><x>0</x><y>70</y><w>220</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notesz</help_text><element><id>UMLClass</id><coordinates><x>20</x><y>130</y><w>220</w><h>90</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
 Momento
 --
 +Getname(): string
 +date(): string
-+state: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>200</y><w>220</w><h>140</h></coordinates><panel_attributes>ConcreteMomento
++state: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>260</y><w>220</w><h>140</h></coordinates><panel_attributes>ConcreteMomento
 --
 -state_: string
 -date_: string
 --
 +Getname(): string
 +date(): string
-+state: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>150</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>370</y><w>220</w><h>130</h></coordinates><panel_attributes>Originator
++state: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>210</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>430</y><w>220</w><h>130</h></coordinates><panel_attributes>Originator
 --
 -_state: string
 --
 +Originator(in state:string)
 +doSomething()
 +save(): *Memento
-+restore(in momento: Momento*)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>330</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>270</y><w>220</w><h>150</h></coordinates><panel_attributes>Caretaker
++restore(in momento: Momento*)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>390</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>260</y><w>220</w><h>150</h></coordinates><panel_attributes>Caretaker
 --
 -momentos: Memento*[]
 -originator_: Originator*
@@ -25,6 +25,6 @@ Momento
 +Caretaker(inout originator: Originator*) 
 +backUp()
 +undo()
-+showHistory()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>410</y><w>220</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>200;10;200;60;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>100</y><w>260</w><h>190</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>240;170;240;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>560</y><w>100</w><h>30</h></coordinates><panel_attributes>Client</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>490</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>410</y><w>300</w><h>170</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>280;10;280;110;10;110;10;150</additional_attributes></element><element><id>UMLNote</id><coordinates><x>80</x><y>0</y><w>140</w><h>50</h></coordinates><panel_attributes>Momento
++showHistory()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>400</y><w>160</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>140;10;140;130;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>160</y><w>200</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>180;100;180;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>620</y><w>100</w><h>30</h></coordinates><panel_attributes>Client</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>550</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;90;50;90</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>400</y><w>220</w><h>260</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>200;10;200;240;10;240</additional_attributes></element><element><id>UMLNote</id><coordinates><x>100</x><y>60</y><w>140</w><h>50</h></coordinates><panel_attributes>Momento
 bg=White
 fg=Black</panel_attributes><additional_attributes></additional_attributes></element></diagram>

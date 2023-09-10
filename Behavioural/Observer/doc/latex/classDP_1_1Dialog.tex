@@ -1,0 +1,58 @@
+\hypertarget{classDP_1_1Dialog}{}\doxysection{DP\+::Dialog Class Reference}
+\label{classDP_1_1Dialog}\index{DP::Dialog@{DP::Dialog}}
+
+
+Interface class for \mbox{\hyperlink{classDP_1_1Dialog}{Dialog}} type.  
+
+
+
+
+{\ttfamily \#include $<$Dialog.\+h$>$}
+
+
+
+Inheritance diagram for DP\+::Dialog\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{classDP_1_1Dialog__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classDP_1_1Button}{Button}} $>$ \mbox{\hyperlink{classDP_1_1Dialog_adcb7e39f7da014db79ff8c1bc2ef2ecd}{create\+Button}} ()=0
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{classDP_1_1Button}{Button}} object -\/ TO BE implemented by subclass. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDP_1_1Dialog_aa7f02d1eef58911c3d2ba239f3f74582}\label{classDP_1_1Dialog_aa7f02d1eef58911c3d2ba239f3f74582}} 
+void \mbox{\hyperlink{classDP_1_1Dialog_aa7f02d1eef58911c3d2ba239f3f74582}{render}} ()
+\begin{DoxyCompactList}\small\item\em render method \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface class for \mbox{\hyperlink{classDP_1_1Dialog}{Dialog}} type. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDP_1_1Dialog_adcb7e39f7da014db79ff8c1bc2ef2ecd}\label{classDP_1_1Dialog_adcb7e39f7da014db79ff8c1bc2ef2ecd}} 
+\index{DP::Dialog@{DP::Dialog}!createButton@{createButton}}
+\index{createButton@{createButton}!DP::Dialog@{DP::Dialog}}
+\doxysubsubsection{\texorpdfstring{createButton()}{createButton()}}
+{\footnotesize\ttfamily virtual std\+::shared\+\_\+ptr$<$\mbox{\hyperlink{classDP_1_1Button}{Button}}$>$ DP\+::\+Dialog\+::create\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Create a \mbox{\hyperlink{classDP_1_1Button}{Button}} object -\/ TO BE implemented by subclass. 
+
+\begin{DoxyReturn}{Returns}
+std\+::shared\+\_\+ptr$<$\+Button$>$ 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classDP_1_1MacDialog_ae4f43dc13f11ec94e2a90cd860889185}{DP\+::\+Mac\+Dialog}}, and \mbox{\hyperlink{classDP_1_1LinuxDialog_a4a0dcb7001cd1d4139ec393ecc49f5de}{DP\+::\+Linux\+Dialog}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Creational/\+Factory\+Pattern/include/Dialog.\+h\item 
+/home/tej/\+Documents/\+Courses/\+Learning/\+Design\+\_\+\+Patterns/\+Creational/\+Factory\+Pattern/src/Dialog.\+cpp\end{DoxyCompactItemize}
