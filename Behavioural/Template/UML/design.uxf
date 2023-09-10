@@ -1,0 +1,19 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>110</x><y>250</y><w>260</w><h>160</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+AbstractClass
+--
++void TemplateMethod() const
++BaseOperation1() const
++BaseOperation2() const
++virtual RequiredOperations1() {abstract}
++virtual RequiredOperations2() {abstract}
++virtual Hook1() {abstract}
++virtual Hook2() {abstract}</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>480</y><w>190</w><h>110</h></coordinates><panel_attributes>ConcreteClass1
+--
++virtual RequiredOperations1() 
++virtual RequiredOperations2() </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>480</y><w>210</w><h>110</h></coordinates><panel_attributes>ConcreteClass2
+--
++virtual RequiredOperations1()
++virtual RequiredOperations2() 
++virtual Hook1() </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>400</y><w>140</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;10;120;60;10;60;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>400</y><w>160</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;60;140;60;140;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>680</y><w>100</w><h>30</h></coordinates><panel_attributes>SimpleClass</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>580</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>580</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLNote</id><coordinates><x>190</x><y>190</y><w>120</w><h>40</h></coordinates><panel_attributes>Template
+bg=White
+fg=Black</panel_attributes><additional_attributes></additional_attributes></element></diagram>

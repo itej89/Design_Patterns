@@ -1,0 +1,2 @@
+#define TemplatePattern_VERSION_MAJOR @TemplatePattern_VERSION_MAJOR@
+#define TemplatePattern_VERSION_MINOR @TemplatePattern_VERSION_MINOR@
