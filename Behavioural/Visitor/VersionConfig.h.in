@@ -1,0 +1,2 @@
+#define VisitorPattern_VERSION_MAJOR @VisitorPattern_VERSION_MAJOR@
+#define VisitorPattern_VERSION_MINOR @VisitorPattern_VERSION_MINOR@

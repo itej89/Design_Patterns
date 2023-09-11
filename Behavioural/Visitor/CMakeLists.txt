@@ -1,0 +1,26 @@
+cmake_minimum_required (VERSION 3.22.1)
+
+project (VisitorPattern VERSION 1.0)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+configure_file(VersionConfig.h.in VersionConfig.h)
+
+add_executable(main "")
+
+target_include_directories(main 
+    PRIVATE 
+        "${PROJECT_BINARY_DIR}"
+        include
+    )
+
+target_sources(main
+    PRIVATE
+        src/main.cpp
+        src/ConcreteVisitor1.cpp
+        src/ConcreteVisitor2.cpp
+        src/ConcreteComponentA.cpp
+        src/ConcreteComponentB.cpp
+    )
